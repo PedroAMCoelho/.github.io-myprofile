@@ -145,7 +145,7 @@ footer p {padding:2%; color:white;}
 display: block !important; position: static;}
 .menu li {padding: 0; float: left;}
 .menu li a {color:#130400; font-size: 1.3em; padding: 15px; }
-.menu li a:hover {border: none; color:#da6709; }
+.menu li a:hover {border: none; color:#FF69B4; }
 .title h3 {padding-bottom:3%;}
 .title h4 {padding-bottom:4%;}
 .newsletter button {margin-top:1.2%;}
