@@ -74,7 +74,7 @@ div.mouseButton{border-radius: 10px; background: #fff; width: 1.1px; height: 9px
 .about3{border-bottom: 2px solid #a3a3a3; border-image: radial-gradient(black, black, rgba(0,0,0,0)); border-image-slice:1; font-size:1.05em; letter-spacing: -0.8px; font-family: Josefin Sans, Helvetica, Arial, Sans-serif; padding-top:4%; font-weight:600; width:72%;}
 
 /* ABOUT ME - SKILLS */
-ul.skills-chart li {height: 30px; color: #FFF; text-align: left; font-style: italic; font-size: 15px; line-height: 30px; padding: 0px 20px; margin-bottom: 1px; animation-name: mySkills; animation-duration: 6.5s; animation-timing-function:ease-out;}
+ul.skills-chart li {height: 30px; color: #FFF; text-align: left; font-style: italic; font-size: 15px; line-height: 30px; padding: 0px 20px; margin-bottom: 1px; animation-name: mySkills; animation-duration: 6.5s; animation-timing-function:ease-out;animation-play-state: paused;}
 
 @keyframes mySkills {
   0%{width:24%;}    
@@ -83,18 +83,18 @@ ul.skills-chart li {height: 30px; color: #FFF; text-align: left; font-style: ita
   30%{width:30%;}
 }
 ul.skills-chart li.html {width: 86%; background: #8B008B;}
-ul.skills-chart li.css {width: 82%; background: #EE82EE;}
+ul.skills-chart li.css {width: 82%; background: #BA55D3;}
 ul.skills-chart li.bootstrap {width: 71%; background: #8B008B;}
-ul.skills-chart li.photoshop{background: #EE82EE; width:45%;}
+ul.skills-chart li.photoshop{background: #BA55D3; width:45%;}
 ul.skills-chart li.jquery {width: 30%; background: #8B008B;}
-ul.skills-chart li.js {width: 54%; background: #EE82EE;}
+ul.skills-chart li.js {width: 54%; background: #BA55D3;}
 ul.skills-chart li.java {width: 56%; background: #8B008B;}
-ul.skills-chart li.github {width: 46%; background: #EE82EE;}
+ul.skills-chart li.github {width: 46%; background: #BA55D3;}
 ul.skills-chart li.bonus {color:black; font-size:15px;}
-ul.skills-chart li.lang-Pt {width: 100%; background: #EE82EE;}
+ul.skills-chart li.lang-Pt {width: 100%; background: #BA55D3;}
 ul.skills-chart li.lang-Eng {width: 99%; background: #8B008B;}
 ul.skills-chart li.lang-Fr {width: 30%; background: #8B008B;}
-ul.skills-chart li.ip {width: 97%; background: #EE82EE;}
+ul.skills-chart li.ip {width: 97%; background: #BA55D3;}
 ul.skills-chart > div.timeline{background:url("../img/timeline-mobile.png"); background-repeat:no-repeat; padding:4.8% 0; background-size:100%;}
 
 /* NEWSLETTER */
