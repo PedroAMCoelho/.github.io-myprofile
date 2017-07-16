@@ -51,7 +51,7 @@ window.onload = function(){
 
 window.onscroll = function beginAnimation(){
 
-	if(window.pageYOffset > 1400){
+	if(window.pageYOffset > 1000){
 
 		for(var i=4;i<=16; i++){
 				if(lihtml[0].style.animationPlayState=="paused") 
