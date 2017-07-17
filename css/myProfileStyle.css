@@ -69,8 +69,8 @@ div.mouseButton{border-radius: 10px; background: #fff; width: 1.1px; height: 9px
 .inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%; }
 .inner p, .inner2 p {margin-top: 6%; color: #130400; line-height: 1.5em;}
 
-#about1{font-size: 1.651em; font-family: Bree Serif, Helvetica, Arial, Sans-serif; letter-spacing: -0.02em;}
-.about2{border-bottom:1px solid; margin-bottom:3%; font-size:1.495em; letter-spacing: -0.8px; font-family: Josefin Sans, Helvetica, Arial, Sans-serif;}
+#about1{font-size: 1.472em; font-family: Bree Serif, Helvetica, Arial, Sans-serif; letter-spacing: -0.02em;}
+.about2{border-bottom:1px solid; margin-bottom:3%; font-size:1.34em; letter-spacing: -0.8px; font-family: Josefin Sans, Helvetica, Arial, Sans-serif;}
 .about3{border-bottom: 2px solid #a3a3a3; border-image: radial-gradient(black, black, rgba(0,0,0,0)); border-image-slice:1; font-size:1.05em; letter-spacing: -0.8px; font-family: Josefin Sans, Helvetica, Arial, Sans-serif; padding-top:4%; font-weight:600; width:72%;}
 
 /* ABOUT ME - SKILLS */
@@ -124,6 +124,8 @@ footer p {padding:2%; color:white;}
 .about {width: 49%; float: left; margin-left: 1%;}
 .about:nth-child(2){margin-right: 0;}
 .about:nth-child(4){clear:both;}
+#about1{font-size: 1.651em;}
+.about2{font-size:1.495em;}
 .newsletter h2 {font-size: 2em;}
 .newsletter h3 {font-size: 1.5em;}
 .form-item {width: 70%; padding: 2%; float: left; margin-right: 1%;}
