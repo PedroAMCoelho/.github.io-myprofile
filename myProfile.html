@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/myProfileStyle.css"> <!-- p/ chamar o doc css -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif|Josefin Sans">
   <link rel="icon" href="img/icontst2.png">
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script type="text/javascript" src="js/myProfileJavaScript.js"></script> <!-- p/ chamar o doc js -->
 
 </head>
@@ -125,11 +126,11 @@
         <section id="contact" class="newsletter container bg-black">
            <h2> Get in touch with me! </h2>
            <h3>  Want to know more about myself or my experience? Just feel free to drop me a line below anytime. You can also send me an e-mail at pedrocoelhoprojetos@gmail.com </h3>
-           <form>
-              <input class="bg-black form-item" type="text" name="name" placeholder="Your name" required="">
-              <input class="bg-black form-item" type="email" name="email" placeholder="Your email" required="">
-              <textarea class="form-item" rows="5" placeholder="Type your message :)" required=""></textarea>
-              <button class="bg-white"> Send </button>
+           <form id="formId" method='post' action=''>
+              <input id="userNameInput" class="bg-black form-item" type="text" name="name" placeholder="Your name" required>
+              <input id="userEmailInput" class="bg-black form-item" type="email" name="email" placeholder="Your email" required>
+              <textarea id="txtAreaMsg" class="form-item" rows="5" placeholder="Type your message :)" required></textarea>
+              <button type="submit" id="submitBtn" class="bg-white"> Send </button>
            </form>
         </section>
         <!-- RODAPÉ -->
@@ -139,5 +140,6 @@
           <p class="copyright">
             © 2017 Pedro Araujo Marques Coelho
         </footer>
+
 </body>
 </html>
