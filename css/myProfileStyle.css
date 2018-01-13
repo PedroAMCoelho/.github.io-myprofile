@@ -20,14 +20,18 @@ img{max-width:100%;}
 
 /*HEADER */
 .logo{width:56px; height:56px; float:left; background: url(../img/icontst2.png) center center/56px no-repeat; font-size:0;}
-.btn-menu {width: 56px; height: 56px; float: right; text-align: center; color: #fff; border-radius:56px; cursor: pointer;}
+.btn-menu {width: 56px; height: 56px; float: right; text-align: center; 
+  color: #fff; border-radius:56px; cursor: pointer;}
 
 /* MENU */
-.menu {width: 100%; height: 100%;
-		position: fixed; 
+.menu {width: 100%; height: 13%;
+		position: absolute; 
 		background-color: rgba(0,0,0,0.93); 
-		display:none; /*black menu starts hidden*/ 
-	top: 0; left: 0; z-index:1;}
+		visibility:hidden; /*black menu starts hidden*/ 
+	top: 0; left: 0;
+  transition: .5s linear;
+  z-index: -1;
+}
 
 	.btn-close {font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
 .menu ul {padding-top:9%; width: 100%; float: left; text-align: center;} 

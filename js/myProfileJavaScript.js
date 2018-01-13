@@ -12,42 +12,32 @@ window.onload = function(){
 	btnmenu[0].addEventListener("click",
 		function mostrarMenu() {
 
-			if(menu[0].style.display=="block") 
+			if(menu[0].style.visibility=="visible") 
 			{  
-				menu[0].style.display = "none";  
+				menu[0].style.visibility = "hidden";
 			}    
 			else {  
-				menu[0].style.display = "block";  
+				menu[0].style.visibility = "visible";
+				menu[0].style.zIndex = 1;
+				menu[0].style.height = "100%";
+				menu[0].style.transition = ".5s linear";  
 			}
 					});
 
 	btnclose[0].addEventListener("click",
 		function fecharMenu() {
 
-			if(menu[0].style.display=="block") 
+			if(menu[0].style.visibility=="visible") 
 			{  
-				menu[0].style.display = "none";  
+				menu[0].style.visibility = "hidden";
+				menu[0].style.zIndex = -1;
+				menu[0].style.height = "13%"
+				menu[0].style.transition = "0s";  
 			}    
 			else {  
-				menu[0].style.display = "block";  
+				menu[0].style.visibility = "visible";  
 			}
 		});
-
-	for(var i=2;i<=5; i++){
-	a[i].addEventListener("click", 
-		function closeMenuToSee(){
-			if(menu[0].style.display=="block") 
-			{  
-				menu[0].style.display = "none";  
-			}    
-			else {  
-				menu[0].style.display = "block";  
-			}
-					
-		})};
-
-
-
 
 window.onscroll = function beginAnimation(){
 
